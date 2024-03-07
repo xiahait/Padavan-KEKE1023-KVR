@@ -103,5 +103,5 @@ jobs:
       uses: actions/upload-artifact@master
       if: always()
       with:
-        name: Padavan-packages
+        name: Padavan-CR660x-3.4.3.9-nano
         path: /opt/images
