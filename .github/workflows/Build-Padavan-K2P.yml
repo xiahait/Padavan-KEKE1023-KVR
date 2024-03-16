@@ -83,6 +83,10 @@ jobs:
         #echo "CONFIG_FIRMWARE_INCLUDE_XRAY=n" >> .config
         #echo "CONFIG_FIRMWARE_INCLUDE_TROJAN=n" >> .config
         #echo "CONFIG_FIRMWARE_INCLUDE_SSOBFS=n" >> .config
+        ##DNS服务##
+        echo "CONFIG_FIRMWARE_INCLUDE_SMARTDNS=y" >> .config #smartdns
+        echo "CONFIG_FIRMWARE_INCLUDE_ADGUARDHOME=y" >> .config #adg DNS去AD
+        ##DNS服务##
         ##vpn
         echo  "CONFIG_FIRMWARE_INCLUDE_OPENVPN=n" >> .config
         #echo "CONFIG_FIRMWARE_INCLUDE_SOFTETHERVPN_SERVER=n" >> .config
